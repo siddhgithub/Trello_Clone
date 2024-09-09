@@ -1,0 +1,24 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+trello-backend,com0.trello.Board.controller,BoardController,3,0,4,4,37,6,0,0,0.5,0,5,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\Board\controller\BoardController.java,12
+trello-backend,com0.trello.Board.model,Board,3,0,8,8,30,8,0,0,0.25,6,1,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\Board\model\Board.java,6
+trello-backend,com0.trello.Board.repository,BoardRepository,0,0,0,0,2,0,0,0,-1.0,5,0,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\Board\repository\BoardRepository.java,7
+trello-backend,com0.trello.Board.service,BoardService,1,0,4,4,33,8,0,0,0.0,3,2,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\Board\service\BoardService.java,11
+trello-backend,com0.trello,ConfigWeb,0,0,1,1,5,1,0,0,-1.0,0,0,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\ConfigWeb.java,7
+trello-backend,com0.trello,TrelloBackendApplication,0,0,1,1,5,1,0,0,-1.0,0,0,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\TrelloBackendApplication.java,6
+trello-backend,com0.trello,BoardTest,2,0,6,6,63,6,0,0,0.0,0,4,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\test\java\com0\trello\BoardTest.java,20
+trello-backend,com0.trello,TaskTest,4,0,10,10,188,11,0,0,0.0,0,8,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\test\java\com0\trello\TaskTest.java,24
+trello-backend,com0.trello,TrelloBackendApplicationTests,0,0,1,0,4,1,0,0,-1.0,0,0,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\test\java\com0\trello\TrelloBackendApplicationTests.java,6
+trello-backend,com0.trello,UserTest,2,0,20,20,269,20,0,0,0.0,0,3,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\test\java\com0\trello\UserTest.java,19
+trello-backend,com0.trello,WorkSpaceTest,3,0,8,8,127,8,0,0,0.0,0,5,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\test\java\com0\trello\WorkSpaceTest.java,21
+trello-backend,com0.trello.Task.Controller,TaskController,2,0,8,8,36,9,0,0,0.0,0,4,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\Task\Controller\TaskController.java,14
+trello-backend,com0.trello.Task.model,Task,7,0,15,15,53,15,0,0,0.5333333333333333,3,2,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\Task\model\Task.java,9
+trello-backend,com0.trello.Task.Repository,TaskRepository,0,0,0,0,2,0,0,0,-1.0,2,0,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\Task\Repository\TaskRepository.java,7
+trello-backend,com0.trello.Task.Service,TaskService,4,0,8,8,85,18,0,0,0.0,2,7,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\Task\Service\TaskService.java,18
+trello-backend,com0.trello.User.controller,UserController,1,0,6,6,32,7,0,0,0.0,0,2,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\User\controller\UserController.java,10
+trello-backend,com0.trello.User.model,User,5,0,11,11,39,11,0,0,0.5454545454545454,9,0,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\User\model\User.java,5
+trello-backend,com0.trello.User.repository,UserRepository,0,0,1,0,3,1,0,0,-1.0,6,1,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\User\repository\UserRepository.java,7
+trello-backend,com0.trello.User.service,UserService,2,0,9,9,91,23,0,0,0.0,4,2,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\User\service\UserService.java,13
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,3,0,8,8,44,9,0,0,0.25,0,4,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\WorkSpace\controller\WorkSpaceController.java,15
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,4,0,9,9,32,9,0,0,0.5555555555555556,8,0,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\WorkSpace\model\WorkSpace.java,9
+trello-backend,com0.trello.WorkSpace.repository,WorkSpaceRepository,0,0,0,0,2,0,0,0,-1.0,4,0,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\WorkSpace\repository\WorkSpaceRepository.java,7
+trello-backend,com0.trello.WorkSpace.service,WorkSpaceService,3,0,7,7,51,11,0,0,0.0,3,5,C:\Users\harsh\Desktop\Smeels\.\trello-backend\src\main\java\com0\trello\WorkSpace\service\WorkSpaceService.java,14

@@ -1,0 +1,146 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+trello-backend,com0.trello.Board.controller,BoardController,getBoardById,9,2,1,26,0,,
+trello-backend,com0.trello.Board.controller,BoardController,updateBoard,3,1,1,37,0,com0.trello.Board.service.BoardService,com0.trello.Board.service.BoardService
+trello-backend,com0.trello.Board.controller,BoardController,createBoard,10,2,2,42,0,com0.trello.WorkSpace.service.WorkSpaceService,com0.trello.WorkSpace.service.WorkSpaceService; com0.trello.Board.model.Board; com0.trello.Board.service.BoardService
+trello-backend,com0.trello.Board.controller,BoardController,deleteBoardById,10,1,1,57,0,com0.trello.Board.service.BoardService,com0.trello.Board.service.BoardService
+trello-backend,com0.trello.Board.model,Board,Board,5,1,3,19,0,,
+trello-backend,com0.trello.Board.model,Board,Board,2,1,0,25,0,,
+trello-backend,com0.trello.Board.model,Board,getId,3,1,0,30,0,,
+trello-backend,com0.trello.Board.model,Board,setId,3,1,1,34,0,,
+trello-backend,com0.trello.Board.model,Board,getBoardName,3,1,0,38,0,,
+trello-backend,com0.trello.Board.model,Board,setBoardName,3,1,1,42,0,,
+trello-backend,com0.trello.Board.model,Board,getWorkSpace,3,1,0,46,0,,
+trello-backend,com0.trello.Board.model,Board,setWorkSpace,3,1,1,50,0,,
+trello-backend,com0.trello.Board.service,BoardService,createBoard,6,2,1,17,0,,
+trello-backend,com0.trello.Board.service,BoardService,updateBoard,10,2,1,26,0,com0.trello.Board.model.Board,com0.trello.Board.model.Board
+trello-backend,com0.trello.Board.service,BoardService,deleteBoardById,4,1,1,40,0,,
+trello-backend,com0.trello.Board.service,BoardService,getAllBoardsInWorkspace,10,3,1,46,0,com0.trello.Board.model.Board,com0.trello.Board.model.Board; com0.trello.WorkSpace.model.WorkSpace
+trello-backend,com0.trello,ConfigWeb,addCorsMappings,3,1,1,10,0,,
+trello-backend,com0.trello,TrelloBackendApplication,main,3,1,1,9,0,,
+trello-backend,com0.trello,BoardTest,createBoardTest,9,1,0,29,1,com0.trello.Board.model.Board,com0.trello.Board.model.Board; com0.trello.Board.service.BoardService
+trello-backend,com0.trello,BoardTest,createEmptyBoardTest,5,1,0,43,1,com0.trello.Board.service.BoardService,com0.trello.Board.service.BoardService
+trello-backend,com0.trello,BoardTest,updateBoardTest,12,1,0,53,1,com0.trello.Board.model.Board,com0.trello.Board.service.BoardService; com0.trello.Board.model.Board
+trello-backend,com0.trello,BoardTest,updateBoardWithoutAssignedIdTest,10,1,0,69,1,com0.trello.Board.model.Board,com0.trello.Board.service.BoardService; com0.trello.Board.model.Board
+trello-backend,com0.trello,BoardTest,GetAllBoardsInWorkspaceTest,14,1,0,83,1,com0.trello.Board.service.BoardService,com0.trello.Board.service.BoardService; com0.trello.WorkSpace.model.WorkSpace
+trello-backend,com0.trello,BoardTest,deleteBoardByIdTest,9,1,0,103,1,com0.trello.Board.model.Board,com0.trello.Board.model.Board; com0.trello.Board.service.BoardService
+trello-backend,com0.trello,TaskTest,createTaskTest,15,1,0,39,1,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,createTaskWithoutNameTest,11,1,0,59,1,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,statusChangeTest,17,1,0,75,1,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,statusChangeWithoutAssignedTaskTest,22,2,0,100,1,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,changeDueDateTest,17,1,0,130,1,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,checkValidDueDateTest,17,1,0,154,1,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,addUserTest,42,1,0,178,1,com0.trello.Task.model.Task,com0.trello.User.model.User; com0.trello.Board.model.Board; com0.trello.Task.model.Task; com0.trello.WorkSpace.model.WorkSpace; com0.trello.User.repository.UserRepository; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,addUserToNonExistingTask,10,1,0,233,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,updateTaskTest,17,1,0,248,1,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TaskTest,checkFindTaskByIdTest,14,1,0,272,1,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello,TrelloBackendApplicationTests,contextLoads,2,1,0,9,1,,
+trello-backend,com0.trello,UserTest,createUserTest,12,1,0,28,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,createUserWithEmptyUserNameTest,10,1,0,47,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,createUserWithEmptyEmailAddressTest,10,1,0,63,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,createUserWithEmptyPasswordTest,10,1,0,79,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,createUserWithWrongPasswordRequirementTest,10,1,0,95,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,createUserWithEmptySecurityAnswerTest,10,1,0,111,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,checkUserExistsWithValidEmailTest,15,1,0,128,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.repository.UserRepository; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,loginUserTest,14,1,0,149,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.repository.UserRepository; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,loginUserWithWrongPasswordTest,14,1,0,171,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.repository.UserRepository; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,loginWithNoUserTest,12,1,0,192,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,validPasswordTest,10,1,0,212,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,findDuplicateUserTest,21,1,0,229,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,checkUpdateUserTest,15,1,0,257,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,checkFindUserByIdTest,12,1,0,279,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,checkFindUserByEmailTest,12,1,0,299,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.repository.UserRepository; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,resetPasswordTest,17,1,0,319,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.repository.UserRepository; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,resetPasswordWithoutSameSecurityAnswerTest,17,1,0,345,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.repository.UserRepository; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,resetPasswordWithoutProperNewPasswordPatternTest,17,1,0,371,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.repository.UserRepository; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,resetPasswordWithoutUserEmailTest,15,1,0,397,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,UserTest,deleteUserByIdTest,12,1,0,419,1,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello,WorkSpaceTest,getAllWorkSpaceTest,17,1,0,32,1,com0.trello.WorkSpace.model.WorkSpace,com0.trello.WorkSpace.model.WorkSpace; com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello,WorkSpaceTest,getAllMemberTest,25,1,0,58,1,com0.trello.WorkSpace.model.WorkSpace,com0.trello.User.model.User; com0.trello.WorkSpace.model.WorkSpace; com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello,WorkSpaceTest,addMemberToWorkSpaceTest,15,1,0,92,1,com0.trello.WorkSpace.model.WorkSpace,com0.trello.User.model.User; com0.trello.WorkSpace.model.WorkSpace; com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello,WorkSpaceTest,createWorkSpaceTest,21,1,0,114,1,com0.trello.WorkSpace.model.WorkSpace,com0.trello.User.model.User; com0.trello.WorkSpace.model.WorkSpace; com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello,WorkSpaceTest,checkFindWorkSpaceByIdTest,10,1,0,144,1,com0.trello.WorkSpace.model.WorkSpace,com0.trello.WorkSpace.service.WorkSpaceService; com0.trello.WorkSpace.model.WorkSpace
+trello-backend,com0.trello,WorkSpaceTest,updateWorkSpaceTest,13,1,0,162,1,com0.trello.WorkSpace.model.WorkSpace,com0.trello.WorkSpace.service.WorkSpaceService; com0.trello.WorkSpace.model.WorkSpace
+trello-backend,com0.trello,WorkSpaceTest,deleteWorkSpaceByIdTest,10,1,0,180,1,com0.trello.WorkSpace.model.WorkSpace,com0.trello.WorkSpace.model.WorkSpace; com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello,WorkSpaceTest,updateNullWorkSpaceTest,11,1,0,196,1,com0.trello.WorkSpace.model.WorkSpace,com0.trello.WorkSpace.service.WorkSpaceService; com0.trello.WorkSpace.model.WorkSpace
+trello-backend,com0.trello.Task.Controller,TaskController,getTaskById,9,2,1,26,0,com0.trello.Task.Service.TaskService,com0.trello.Task.Service.TaskService
+trello-backend,com0.trello.Task.Controller,TaskController,getAllTask,3,1,0,37,0,com0.trello.Task.Service.TaskService,com0.trello.Task.Service.TaskService
+trello-backend,com0.trello.Task.Controller,TaskController,updateTask,3,1,1,42,0,com0.trello.Task.Service.TaskService,com0.trello.Task.Service.TaskService
+trello-backend,com0.trello.Task.Controller,TaskController,createTask,5,1,2,47,0,com0.trello.Task.model.Task,com0.trello.Task.model.Task; com0.trello.Task.Service.TaskService
+trello-backend,com0.trello.Task.Controller,TaskController,changeTaskStatus,3,1,2,55,0,com0.trello.Task.Service.TaskService,com0.trello.Task.Service.TaskService
+trello-backend,com0.trello.Task.Controller,TaskController,changeEndDate,3,1,2,61,0,com0.trello.Task.Service.TaskService,com0.trello.Task.Service.TaskService
+trello-backend,com0.trello.Task.Controller,TaskController,deleteTaskById,3,1,1,67,0,com0.trello.Task.Service.TaskService,com0.trello.Task.Service.TaskService
+trello-backend,com0.trello.Task.Controller,TaskController,assignMemberToTask,3,1,2,73,0,com0.trello.Task.Service.TaskService,com0.trello.Task.Service.TaskService
+trello-backend,com0.trello.Task.model,Task,Task,2,1,0,32,0,,
+trello-backend,com0.trello.Task.model,Task,getId,3,1,0,37,0,,
+trello-backend,com0.trello.Task.model,Task,setId,3,1,1,41,0,,
+trello-backend,com0.trello.Task.model,Task,getTaskName,3,1,0,45,0,,
+trello-backend,com0.trello.Task.model,Task,setTaskName,3,1,1,49,0,,
+trello-backend,com0.trello.Task.model,Task,getTaskStatus,3,1,0,53,0,,
+trello-backend,com0.trello.Task.model,Task,setTaskStatus,3,1,1,57,0,,
+trello-backend,com0.trello.Task.model,Task,getStartDate,3,1,0,61,0,,
+trello-backend,com0.trello.Task.model,Task,setStartDate,3,1,1,65,0,,
+trello-backend,com0.trello.Task.model,Task,getEndDate,3,1,0,69,0,,
+trello-backend,com0.trello.Task.model,Task,setEndDate,3,1,1,73,0,,
+trello-backend,com0.trello.Task.model,Task,getUser,3,1,0,77,0,,
+trello-backend,com0.trello.Task.model,Task,setUser,3,1,1,81,0,,
+trello-backend,com0.trello.Task.model,Task,getBoard,3,1,0,85,0,,
+trello-backend,com0.trello.Task.model,Task,setBoard,3,1,1,89,0,,
+trello-backend,com0.trello.Task.Service,TaskService,createTask,8,2,1,32,0,com0.trello.Task.model.Task,com0.trello.Task.model.Task
+trello-backend,com0.trello.Task.Service,TaskService,findTaskById,5,1,1,45,0,,
+trello-backend,com0.trello.Task.Service,TaskService,updateTask,12,2,1,51,0,com0.trello.Task.model.Task,com0.trello.Task.model.Task
+trello-backend,com0.trello.Task.Service,TaskService,getAllTasks,4,1,0,64,0,,
+trello-backend,com0.trello.Task.Service,TaskService,deleteTaskById,4,1,1,69,0,,
+trello-backend,com0.trello.Task.Service,TaskService,changeStatus,12,3,2,74,0,com0.trello.Task.model.Task,com0.trello.Task.model.Task
+trello-backend,com0.trello.Task.Service,TaskService,changeEndDate,15,4,2,95,0,com0.trello.Task.model.Task,com0.trello.Task.model.Task
+trello-backend,com0.trello.Task.Service,TaskService,assignMemberToTask,19,4,2,120,0,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.repository.UserRepository; com0.trello.Board.model.Board; com0.trello.WorkSpace.model.WorkSpace; com0.trello.Task.model.Task
+trello-backend,com0.trello.User.controller,UserController,getUserById,9,2,1,19,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService
+trello-backend,com0.trello.User.controller,UserController,loginConfirmation,3,1,2,30,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService
+trello-backend,com0.trello.User.controller,UserController,resetPassword,3,1,3,35,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService
+trello-backend,com0.trello.User.controller,UserController,updateUser,3,1,1,40,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService
+trello-backend,com0.trello.User.controller,UserController,createUser,8,1,1,45,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService
+trello-backend,com0.trello.User.controller,UserController,deleteUserById,3,1,1,54,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService
+trello-backend,com0.trello.User.model,User,User,2,1,0,22,0,,
+trello-backend,com0.trello.User.model,User,getId,3,1,0,27,0,,
+trello-backend,com0.trello.User.model,User,setId,3,1,1,31,0,,
+trello-backend,com0.trello.User.model,User,getUserEmailAddress,3,1,0,35,0,,
+trello-backend,com0.trello.User.model,User,setUserEmailAddress,3,1,1,39,0,,
+trello-backend,com0.trello.User.model,User,getUserPassword,3,1,0,43,0,,
+trello-backend,com0.trello.User.model,User,setUserPassword,3,1,1,47,0,,
+trello-backend,com0.trello.User.model,User,getUserName,3,1,0,51,0,,
+trello-backend,com0.trello.User.model,User,setUserName,3,1,1,55,0,,
+trello-backend,com0.trello.User.model,User,getSecurityAnswer,3,1,0,59,0,,
+trello-backend,com0.trello.User.model,User,setSecurityAnswer,3,1,1,63,0,,
+trello-backend,com0.trello.User.repository,UserRepository,findByUserEmailAddress,0,1,1,12,0,,
+trello-backend,com0.trello.User.service,UserService,createUser,22,7,1,20,0,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.User.service.UserService
+trello-backend,com0.trello.User.service,UserService,validateEmailPassword,11,3,2,36,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService; com0.trello.User.model.User
+trello-backend,com0.trello.User.service,UserService,isValidPassword,4,1,1,46,0,,
+trello-backend,com0.trello.User.service,UserService,findDuplicateUserByEmail,9,3,1,50,0,com0.trello.User.model.User,com0.trello.User.model.User
+trello-backend,com0.trello.User.service,UserService,findUserById,5,1,1,58,0,,
+trello-backend,com0.trello.User.service,UserService,findUserByEmail,3,1,1,63,0,com0.trello.User.repository.UserRepository,com0.trello.User.repository.UserRepository
+trello-backend,com0.trello.User.service,UserService,updateUser,12,2,1,66,0,com0.trello.User.model.User,com0.trello.User.model.User
+trello-backend,com0.trello.User.service,UserService,deleteUserById,4,1,1,77,0,,
+trello-backend,com0.trello.User.service,UserService,resetPassword,17,4,3,81,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService; com0.trello.User.model.User
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,getAllBoardsInWorkspace,3,1,1,29,0,com0.trello.Board.service.BoardService,com0.trello.Board.service.BoardService
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,getWorkSpaceById,9,2,1,34,0,com0.trello.WorkSpace.service.WorkSpaceService,com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,updateWorkSpace,3,1,1,45,0,com0.trello.WorkSpace.service.WorkSpaceService,com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,createWorkSpace,11,1,2,50,0,com0.trello.WorkSpace.model.WorkSpace,com0.trello.WorkSpace.model.WorkSpace; com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,getAllWorkSpaces,3,1,0,62,0,com0.trello.WorkSpace.service.WorkSpaceService,com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,displayAllUsersNames,3,1,1,68,0,com0.trello.WorkSpace.service.WorkSpaceService,com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,deleteWorkSpaceById,3,1,1,74,0,com0.trello.WorkSpace.service.WorkSpaceService,com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello.WorkSpace.controller,WorkSpaceController,addMemberToWorkSpace,4,1,2,80,0,com0.trello.User.service.UserService,com0.trello.User.service.UserService; com0.trello.WorkSpace.service.WorkSpaceService
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,WorkSpace,2,1,0,23,0,,
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,getId,3,1,0,28,0,,
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,setId,3,1,1,32,0,,
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,getWorkSpaceName,3,1,0,36,0,,
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,setWorkSpaceName,3,1,1,40,0,,
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,getWorkSpaceDetail,3,1,0,44,0,,
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,setWorkSpaceDetail,3,1,1,48,0,,
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,getUsers,3,1,0,52,0,,
+trello-backend,com0.trello.WorkSpace.model,WorkSpace,setUsers,3,1,1,56,0,,
+trello-backend,com0.trello.WorkSpace.service,WorkSpaceService,createWorkSpace,7,2,1,26,0,,
+trello-backend,com0.trello.WorkSpace.service,WorkSpaceService,findWorkSpaceById,5,1,1,36,0,,
+trello-backend,com0.trello.WorkSpace.service,WorkSpaceService,updateWorkSpace,9,2,1,45,0,com0.trello.WorkSpace.model.WorkSpace,com0.trello.WorkSpace.model.WorkSpace
+trello-backend,com0.trello.WorkSpace.service,WorkSpaceService,deleteWorkSpaceById,4,1,1,58,0,,
+trello-backend,com0.trello.WorkSpace.service,WorkSpaceService,addMemberToWorkSpace,13,3,2,65,0,com0.trello.User.model.User,com0.trello.User.model.User; com0.trello.WorkSpace.model.WorkSpace
+trello-backend,com0.trello.WorkSpace.service,WorkSpaceService,getAllWorkSpaces,4,1,0,84,0,,
+trello-backend,com0.trello.WorkSpace.service,WorkSpaceService,getAllMembersName,4,1,1,90,0,com0.trello.WorkSpace.service.WorkSpaceService,com0.trello.WorkSpace.service.WorkSpaceService; com0.trello.WorkSpace.model.WorkSpace
